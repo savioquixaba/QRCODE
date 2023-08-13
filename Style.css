@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;600;700&family=Poppins:wght@300;400;500;600;900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +8,9 @@
     font-family: 'Open Sans';
 }
 
+
 body{
+    
     display: flex;
     width: 100%;
     height: 100vh;
@@ -19,7 +22,7 @@ body{
 
 .container{
     
-    
+    max-width: 100%;
     width: 17%;
     height: 48vh;
     display: flex;
@@ -32,10 +35,12 @@ body{
     
 }
 .img img{
+    
     display: flex;
     width: 310px;
     border-radius: 5%;
-    
+    max-width: 100%;
+    margin-top: 0.3rem;
     
 }
 
@@ -43,11 +48,11 @@ body{
    
     display: flex;
     flex-direction: column;
-    margin-top: 15px;
+    margin-top: 12px;
     align-items: center;
-    overflow: auto;
+   
     font-size: 13px;
-    line-height: 1.3;
+    
     text-align: center;
 }
 .text span{
@@ -61,16 +66,10 @@ body{
     font-style: bold;
     margin-bottom: 10px;
     
-
-
 }
 
 .attribution {
     
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 17.3rem; 
-    
-    
+    max-width: 100%;
+    margin-top: 10px;
 }
