@@ -1,5 +1,5 @@
 # Frontend Mentor - QR code component
-
+Link Site: https://savioquixaba.github.io/QRCODE/
 ![Design preview for the QR code component coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
